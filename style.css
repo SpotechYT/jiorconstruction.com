@@ -1,0 +1,140 @@
+:root {
+    --background: #262626;
+    --main: #9A8A78;
+}
+
+body {
+    color: white;
+    background-color: var(--background);
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.unselectable {
+    user-select: none;
+}
+
+.title-text {
+    margin-left: -8px;
+    margin-top: -8px;
+    width: 100vw;
+    height: 90vh;
+
+    background-image: url("/assets/e3c73352fb2f466daa0c0b7869c8ecc7.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-text h1, h2 {
+    color: black;
+    line-height: 0px;
+}
+
+
+.title-text div {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+
+.grid-s1 {
+    display: grid;
+    margin: 10vh;
+
+    border: 1px solid var(--main);
+}
+
+div[class^="grid-s1-"] {
+    border: 1px solid var(--main);
+    padding: 50px 50px 25px 50px;
+}
+
+.grid-s1-a {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+
+    background-image: url(/assets/ea26fd_724a836736c64fc38c4fd21fa32ba9a9~mv2_d_4997_4480_s_4_2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 75vh;
+}
+
+.grid-s1-b {
+    grid-column: 3 / span 2;
+    grid-row: 1 / 1;
+}
+
+.grid-s1-c {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    line-height: 10px;
+}
+
+.grid-s1-d {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    line-height: 10px;
+}
+
+.grid-s1-e {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    line-height: 10px;
+}
+
+.grid-s1-f {
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    line-height: 10px;
+}
+
+.grid-s1-g {
+    grid-column: 1 / span 2;
+    grid-row: 3 / 3;
+}
+
+.grid-s1-h {
+    grid-column: 3 / span 2;
+    grid-row: 3 / 3;
+
+    background-image: url(/assets/ea26fd_0e8eb61209a542fda3b36451a15530fc~mv2_d_6720_4480_s_4_2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 75vh;
+}

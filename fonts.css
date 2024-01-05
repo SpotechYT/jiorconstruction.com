@@ -1,0 +1,8 @@
+@font-face {
+    font-family: hemi-head;
+    src: url("/assets/fonts/hemi\ head\ bd\ it.otf");
+}
+
+.hemi-head {
+    font-family: 'hemi-head';
+}
